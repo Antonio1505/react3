@@ -1,0 +1,53 @@
+.body{
+    background-image: url(../img/battlefield-4-screen-02-us-09jan15\ -\ Copie.jpg);
+    background-size:cover;
+    height: 100%;
+    padding-top: 200px;
+}
+
+.para1{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+
+}
+
+.para2{
+    width: 100%;
+    font-size: 20px;
+    margin-left: -10%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.aligne1{
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
+.aligne2{
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
+
+.img1{
+    width: 50%;
+    font-size: 20px;
+    margin-left: 25%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.img2{
+    width: 50%;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+}
