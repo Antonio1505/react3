@@ -1,7 +1,7 @@
-import React, {useState, useEffect } from 'react';
-import Axios from 'axios';
+import React from 'react';
+// import Axios from 'axios';
 import './css/App.css';
-import { useHistory } from 'react-router-dom'
+// import { useHistory } from 'react-router-dom'
 
 export const Profile = () => {
 

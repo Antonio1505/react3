@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Router, Switch } from 'react-router-dom';
+import { BrowserRouter, Route,   } from 'react-router-dom';
 
-import {App}  from './App';
+// import {App}  from './App';
 import {Profile}  from './Profile';
 import Header from '../src/component/header';
 import Footer from '../src/component/footer';

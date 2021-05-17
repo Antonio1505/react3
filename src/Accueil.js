@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Accueil.css';
-import IMG from './img/battlefield-4-screen-02-us-09jan15\ -\ Copie.jpg';
+// import IMG from './img/battlefield-4-screen-02-us-09jan15\ -\ Copie.jpg';
 
 function Accueil() {
 
@@ -21,7 +21,7 @@ function Accueil() {
                 </div>
 
                 <div >
-                    <img className="img1" src={IMG} alt="no image"/>
+                    {/* <img className="img1" src={IMG} alt="no image"/> */}
                 </div>
 
            
@@ -30,7 +30,7 @@ function Accueil() {
 
             <div className="aligne2">
                 <div >
-                    <img className="img2" src={IMG} alt="no image"/>
+                    {/* <img className="img2" src={IMG} alt="no image"/> */}
                 </div>
                 <div className="para2">
                     Lorem Ipsum is simply dummy text of the printing and
