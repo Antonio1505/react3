@@ -1,0 +1,124 @@
+.body{
+    background-image: url(../../public/imageTest.jpg);
+    background-size:cover;
+    height: 500px;
+    
+}
+
+.title{
+    font-size: 30px;
+   
+    color: white;
+    background-color: rgba(62, 55, 155, 0.345);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.title_text{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.title_text2{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.first_title{
+    padding-top: 50px;
+    font-size: 70px;
+    text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.insciption_btn{
+    background-color: rgba(240, 12, 12, 0.907);
+    border: none;
+    font-size: 20px;
+    color:aliceblue;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.input_inscription{
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    color: rgba(0, 0, 0, 0.735);
+    margin-left: 9px;
+    width: 30%;
+    border-radius: 3px;
+}
+hr{
+    display: inline-block;
+    width: 100%;
+}
+
+.title div{
+    padding: 15px;
+}
+
+.vertical-line{
+    border-left: 2px solid rgba(0, 0, 0, 0.263);
+    display: inline-block;
+    height: 500px;
+    margin: 0 20px;
+    
+}
+
+.para1{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+ 
+}
+.align{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.para2{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+ 
+}
+.aligne1{
+    /* display: flex; */
+    width: 100%;
+    margin: 5px;
+}
+.aligne2{
+    /* display: flex; */
+    width: 100%;
+    margin: 5px;
+}
+
+.img1{
+    width: 50%;
+    font-size: 20px;
+    margin-left: 25%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.img2{
+    width: 50%;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 5px;
+}

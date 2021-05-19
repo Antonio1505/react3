@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.tableProd {
+ /* background: #fff; */
+ border-width: 1px;
+ border-style: solid;
+}
+
+.titre {
+  background-color: rgb(100,117,155);
+  color: white;
+}
