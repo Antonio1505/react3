@@ -32,7 +32,7 @@ function App() {
                     Learn more About our society
                  </div>
 
-                 <div className="title_text2" >
+                 <div className="title_text2"  data-aos="fade-up">
                     Culpa ut consequat non sit do deserunt. Non Lorem eu non enim ut consequat est 
                     voluptate reprehenderit aute id. Enim exercitation aliquip quis ut aliquip quis amet 
                     nulla excepteur nisi voluptate dolore do. Exercitation nostrud do laborum veniam occaecat 
@@ -49,7 +49,7 @@ function App() {
            
            <div className="align">
                 <div className="aligne1">
-                    <div  className="para1">
+                    <div  className="para1" data-aos="fade-right">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
@@ -60,7 +60,7 @@ function App() {
                     </div>
 
                     <div >
-                        <img className="img1"  src={IMG} alt="no image"/>
+                        <img className="img1" data-aos="fade-right"  src={IMG} alt="no image"/>
                     </div>
 
             
@@ -70,9 +70,9 @@ function App() {
 
                 <div className="aligne2">
                     <div >
-                        <img className="img2"  src={IMG} alt="no image"/>
+                        <img className="img2" data-aos="fade-left"  src={IMG} alt="no image"/>
                     </div>
-                    <div className="para2" >
+                    <div className="para2" data-aos="fade-left">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
