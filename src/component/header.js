@@ -1,6 +1,10 @@
 import React from 'react';
 import { useHistory } from 'react-router';
 import '../css/header.css';
+// import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import {FiMenu } from "react-icons/fi";
+import navira from "../img/logo/navira.jpg";
+
 
 function Header() {
 
@@ -8,12 +12,19 @@ function Header() {
 
     return(
         <div className="headerBar">
-        <h onClick = {() => {history.push('/');}}>Accueil</h>
-        <h onClick = {() => {history.push('/bonDE');}}>Blog</h>
-        <h onClick = {() => {history.push('/profile');}}>Docs</h>
-        <h onClick = {() => {history.push('/profile');}}>Connexion</h>
-        <h onClick = {() => {history.push('/profile');}}>Mouvement d'un stock</h>
-
+      
+        <nav className="menu">
+          
+            <ul> <img class="logo" src={navira} />
+            
+                <li><FiMenu /></li>
+                <li onClick = {() => {history.push('/');}}>Accueil</li>
+                <li onClick = {() => {history.push('/bonDE');}}>A propos</li>
+                <li onClick = {() => {history.push('/profile');}}>SERVICE</li>
+                <li onClick = {() => {history.push('/profile');}}>Connexion</li>
+                 
+            </ul>
+        </nav>
 
         </div>
     )

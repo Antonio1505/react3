@@ -1,12 +1,40 @@
 .headerBar{
-    background-color: rgb(79,167,255);
-    color: white;
-    height: 25px;
-    padding: 10px;
-    text-align: center;
+    background:none;
+    color: black;
+    /* height: 50px; */
+    padding: 1px;
+    /* text-align: center; */
 }
 
-.headerBar h{
-    margin: 25px;
+.menu ul{
 
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 93vw;
+    justify-content: end;
+    border-bottom: 2px solid rgba(17, 17, 17, 0.331);
+    margin: 9px;
+    padding-bottom: 10px;
+   
+}
+.menu ul li{
+    align-items: right;
+    text-decoration: none;
+   color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 17px;
+    margin-left: 5px;
+
+}
+.menu ul li:hover {
+    background-color: rgba(17, 72, 212, 0.5);
+    border-radius: 2px;
+    padding: 5px;color: white;
+}
+
+.logo{
+    width: 14%;
 }

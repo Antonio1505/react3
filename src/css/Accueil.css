@@ -1,53 +1,294 @@
 .body{
-    background-image: url(../img/battlefield-4-screen-02-us-09jan15\ -\ Copie.jpg);
+    /* background-image: url(../img/business1.jpg); */
     background-size:cover;
-    height: 100%;
-    padding-top: 200px;
+    background-position: center;
+    height: 850px;
+    width: 100%;
+    margin-left: 0%;
 }
 
-.para1{
+.slide-img{
+    background-size:cover;
     width: 100%;
-    font-size: 20px;
-    margin-left: 0%;
-    text-align: justify;
-    margin-top: 10px;
-    padding-top: 5px;
+    height: 100%;
+}
 
+.title{
+    font-size: 30px;
+   
+    color: white;
+    /* background-color: rgba(62, 55, 155, 0.345); */
+   
+    text-align: center;
+   
+}
+
+.title_text{
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(35, 12, 240, 0.788);
+    font-weight: bold;
+}
+
+.title_text2{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.first_title{
+    padding-top: 50%;
+    font-size: 400%;
+    text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.second_title{
+    padding: 2%;
+    font-size: 200%;
+    text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.insciption_btn1{
+    border: solid 2px rgb(240, 12, 12);
+    border-radius: 5px;
+    background: none;
+    font-size: 20px;
+    color:aliceblue;
+    border-radius: 4px;
+    padding: 6px;
+    width: 20%;
+}
+
+.insciption_btn2{
+    background-color: rgba(240, 12, 12, 0.907);
+    border: none;
+    font-size: 20px;
+    color:aliceblue;
+    border-radius: 4px;
+    padding: 6px;
+    width: 20%;
+    margin: 10px;
+}
+
+
+hr{
+    display: inline-block;
+    width: 100%;
+}
+
+.title div{
+    padding: 15px;
+}
+
+.vertical-line{
+    border-left: 2px solid rgba(0, 0, 0, 0.263);
+    display: inline-block;
+    height: 400px;
+    margin: 20px;
+    
+}
+
+.align{
+    display:flex;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 25%;
+    
 }
 
 .para2{
     width: 100%;
-    font-size: 20px;
-    margin-left: -10%;
-    text-align: justify;
+    font-size: 25px;
+    margin-left: 0%;
+    text-align: center;
     margin-top: 10px;
     padding-top: 5px;
+    color: white;
+ 
 }
 .aligne1{
-    display: flex;
+    
     width: 100%;
-    margin: 5px;
+    margin: 5%;
+   
 }
 .aligne2{
-    display: flex;
+    
     width: 100%;
-    margin: 5px;
+    margin: 5%;
 }
 
-.img1{
-    width: 50%;
-    font-size: 20px;
-    margin-left: 25%;
-    text-align: justify;
-    margin-top: 10px;
-    padding-top: 5px;
-}
 
 .img2{
-    width: 50%;
+    width: 70%;
     font-size: 20px;
-    margin-left: 0%;
-    text-align: justify;
-    margin-top: 10px;
+    margin-left: 15%;    
+    margin-top: 10%;
     padding-top: 5px;
 }
+
+.divis1 {
+    /* border: solid 2px rgba(10, 33, 161, 0.592) ; */
+    width: 90%;
+    height: 100%;
+    /* margin-left: 0%; */
+    background-image: url(../img/web.jpg);
+    background-size: cover;
+    margin: 30px;
+    
+    color: rgba(10, 33, 161, 0.893);
+    
+}
+
+.divis2 {
+    /* border: solid 2px rgba(10, 33, 161, 0.592) ; */
+    width: 90%;
+    height: 100%;
+    background-image: url(../img/devAndroid.jpg);
+    background-size: cover;
+    margin: 30px;
+    
+    color: rgba(10, 33, 161, 0.893);
+    
+}
+
+.divis3 {
+    /* border: solid 2px rgba(10, 33, 161, 0.592) ; */
+    width: 90%;
+    height: 100%;
+    background-image: url(../img/ensemble.jpg);
+    background-size: cover;
+    margin: 30px;
+    
+    color: rgba(10, 33, 161, 0.893);
+    
+}
+
+.divis4 {
+    /* border: solid 2px rgba(10, 33, 161, 0.592) ; */
+    width: 90%;
+    height: 100%;
+    background-image: url(../img/digital.jpg);
+    background-size: cover;
+    margin: 30px;
+    
+    color: rgba(10, 33, 161, 0.893);
+    
+}
+
+
+.divis1:hover  {
+    filter: blur(4px);
+    /* transform: rotateY(180); */
+   color: white;
+}
+
+.divis2:hover  {
+    filter: blur(4px);
+    color: white;
+}
+
+.divis3:hover  {
+    filter: blur(4px);
+    color: white;
+}
+.divis4:hover  {
+    filter: blur(4px);
+    color: white;
+}
+
+
+.partenariat{
+    text-align: center;
+    width: 200px;
+}
+
+.partenaire{
+  display: flex;
+    margin-left: 5%;
+    
+}
+.partenaire img{
+    width: 100%;
+    
+}
+
+.partenaire_img{
+    width: 100%;
+    margin: 1%;
+    transition: transform .2s;
+}
+
+.partenaire_img:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.detail{
+    width: 100%;
+    
+    display: flex;
+    
+}
+
+.detail1{
+    width: 20%;
+    padding: 15px;
+    
+    margin: 35px;
+    box-shadow: 1px 3px 7px 2px rgba(0, 0, 0, 0.201);
+    height: 400px;
+    
+}
+
+.detail2{
+    width: 20%;
+    padding: 15px;
+    height: 400px;
+    margin: 35px;
+    box-shadow: 1px 3px 7px 2px rgba(0, 0, 0, 0.201);
+    
+    
+}
+
+.detail3{
+    width: 20%;
+    padding: 15px;
+    height: 400px;
+    margin: 35px;
+    box-shadow: 1px 3px 7px 2px rgba(0, 0, 0, 0.201);
+    
+    
+}
+
+.detail4{
+    width: 20%;
+    padding: 15px;
+    height: 400px;
+    margin: 35px;
+    box-shadow: 1px 3px 7px 2px rgba(0, 0, 0, 0.201);
+    
+    
+}
+
+.detail img{
+    width: 90%;
+    
+}
+
+.detail_title{
+    color: rgba(15, 29, 224, 0.954);
+    font-weight: bold;
+    text-align: center;
+}
+
+.title_img{
+    width: 100%;
+    height: 60%;
+}
+
